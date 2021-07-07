@@ -1,5 +1,6 @@
 
 
+
   <h3 align="center">VR Research - Networking</h3>
 
   <p align="center">
@@ -22,12 +23,16 @@
         <li><a href="#Prerequisites for usage">Usage Prerequisites</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+	    <a href="#usage">Usage</a>
+	 <ul>
+        <li><a href="#Example Video">Example Video</a></li>
+        <li><a href="#Editor View">Editor View</a></li>
+        <li><a href="#Network settings">Network settings</a></li>
+      </ul>
+    </li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -69,19 +74,19 @@ Benefits:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-* Example Video:
+### Example Video
 
 [![Demo Video](https://i.imgur.com/9JTDc1t.png)](https://www.youtube.com/watch?v=nxV61dMYrmI)
 
 By using simple Network transforms and a custom modified Character Controller we are able to have two or more players moving together in a single instance. The character controller has been specially crafted to fit as many models as possible to be easily interchangeable, with spaces for animations being an easy addition once created. Currently the model does not support any physics other than Collision and Gravity, though that can be changed easily in the future, once other features are added. 
 
-* Editor View 
+### Editor View 
 
 ![](https://i.imgur.com/QC4UdMO.png?raw=true)
 
 The current scene is very simple, comprised of a blank ground as well as three obstacles. This is done on purpose to show that we can easily modify the playing field, and will suit our needs in the future to add multiplayer interactable objects. 
 
-* Example of network settings. 
+### Network settings
 
 ![](https://i.imgur.com/0dqJdsl.png?raw=true)
 
