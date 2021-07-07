@@ -71,7 +71,7 @@ Benefits:
 
 * Example Video:
 
-https://youtube.com/embed/nxV61dMYrmI
+[![Demo Video](https://i.imgur.com/9JTDc1t.png)](https://www.youtube.com/watch?v=nxV61dMYrmI)
 
 By using simple Network transforms and a custom modified Character Controller we are able to have two or more players moving together in a single instance. The character controller has been specially crafted to fit as many models as possible to be easily interchangeable, with spaces for animations being an easy addition once created. Currently the model does not support any physics other than Collision and Gravity, though that can be changed easily in the future, once other features are added. 
 
